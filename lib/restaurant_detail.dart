@@ -1,6 +1,7 @@
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:restaurant_app/model/model_restaurant.dart';
 
 var informationTextStyle = TextStyle(fontFamily: 'Oxygen');
 
