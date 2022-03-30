@@ -37,7 +37,7 @@ var menuList = [
     description:
         'Gudeg merupakan makanan tradisional Jogja dan Jawa Tengah. Gudeg dibuat dari nangka mentah yang direbus selama berjam-jam dengan campuran santan, bumbu rempah, dan gula aren. Gudeg biasa disajikan bersama telur, ayam, dan nasi putih. Gudeg memiliki cita rasa sedikit manis dan pekat.',
     rating: '4.7',
-    imageAsset: 'images/habibie-1.jpg',
+    imageAsset: 'images/nasi-gudeg.jpg',
   ),
   ModelRestaurant(
     name: 'Gado-gado',
