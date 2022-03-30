@@ -1,4 +1,3 @@
-
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:restaurant_app/model/model_restaurant.dart';
@@ -73,7 +72,8 @@ class DetailScreen extends StatelessWidget {
                   ),
                   Column(
                     children: <Widget>[
-                      Icon(Icons.access_time),
+                      Icon(Icons.star_outlined),
+                      Icon(Icons.star_outlined),
                       SizedBox(height: 8.0),
                       Text(
                         place.rating,
@@ -83,8 +83,12 @@ class DetailScreen extends StatelessWidget {
                   ),
                   Column(
                     children: <Widget>[
-                      // Icon(Icons.monetization_on),
+                      Icon(Icons.price_change_outlined),
                       SizedBox(height: 8.0),
+                       Text(
+                        place.price,
+                        style: informationTextStyle,
+                      ),
                     ],
                   ),
                 ],
