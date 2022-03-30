@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:restaurant_app/main.dart';
+import 'package:restaurant_app/restaurant_screen.dart';
 
 void main() => runApp(MyApp());
 
@@ -9,7 +10,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Presiden Indonesia',
       theme: ThemeData(),
-      home: MainScreen(),
+      home: RestuarantScreen(),
     );
   }
 }
