@@ -62,7 +62,7 @@ class DetailScreen extends StatelessWidget {
                 children: <Widget>[
                   Column(
                     children: <Widget>[
-                      Icon(Icons.calendar_today),
+                      Icon(Icons.pin_drop),
                       SizedBox(height: 8.0),
                       Text(
                         place.khas,
@@ -72,7 +72,6 @@ class DetailScreen extends StatelessWidget {
                   ),
                   Column(
                     children: <Widget>[
-                      Icon(Icons.star_outlined),
                       Icon(Icons.star_outlined),
                       SizedBox(height: 8.0),
                       Text(
