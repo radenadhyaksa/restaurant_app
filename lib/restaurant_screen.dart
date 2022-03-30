@@ -19,11 +19,11 @@ class RestaurantScreen extends StatelessWidget {
         items: const [
           BottomNavigationBarItem(
             label: 'Menu',
-            icon: Icon(Icons.person_rounded),
+            icon: Icon(Icons.local_restaurant),
           ),
           BottomNavigationBarItem(
             label: 'Pesanan',
-            icon: Icon(Icons.newspaper),
+            icon: Icon(Icons.shopping_cart_outlined),
           ),
         ],
         // onTap: (index) => setState(() => currentIndex = index),
