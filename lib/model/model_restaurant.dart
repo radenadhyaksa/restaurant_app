@@ -68,7 +68,7 @@ var menuList = [
     khas: 'khas suku Banjar',
     description:
         'Soto Banjar adalah sosto khas suku Banjar, Kalimantan Selatan dengan bahan utama ayam dan beraroma harum rempah-rempah seperti kayu manis, biji pala, dan cengkeh. Soto berisi daging ayam yang sudah disuwir-suwir dengan tambahan perkedel atau kentang rebus, rebusan telur, dan ketupat.',
-    rating: '2014 - saat ini',
+    rating: '4.6',
     imageAsset: 'images/soto-banjar.jpg',
   ),
 ];
