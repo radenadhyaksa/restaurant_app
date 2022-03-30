@@ -9,7 +9,7 @@ class RestaurantScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Presiden Indonesia'),
+        title: Text('Menu Restaurant-LokalPunya'),
       ),
 
       //navigation bar
@@ -18,11 +18,11 @@ class RestaurantScreen extends StatelessWidget {
         // currentIndex: currentIndex,
         items: const [
           BottomNavigationBarItem(
-            label: 'Profile',
+            label: 'Menu',
             icon: Icon(Icons.person_rounded),
           ),
           BottomNavigationBarItem(
-            label: 'Berita',
+            label: 'Pesanan',
             icon: Icon(Icons.newspaper),
           ),
         ],
