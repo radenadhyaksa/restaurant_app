@@ -30,7 +30,7 @@ class RestaurantScreen extends StatelessWidget {
 
       body: ListView.builder(
         itemBuilder: (context, index) {
-          final ModelRestaurant place = presidenList[index];
+          final ModelRestaurant place = menuList[index];
           return InkWell(
             onTap: () {
               Navigator.push(context, MaterialPageRoute(builder: (context) {
