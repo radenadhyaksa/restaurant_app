@@ -76,7 +76,7 @@ class DetailScreen extends StatelessWidget {
                       Icon(Icons.access_time),
                       SizedBox(height: 8.0),
                       Text(
-                        place.years,
+                        place.rating,
                         style: informationTextStyle,
                       ),
                     ],
