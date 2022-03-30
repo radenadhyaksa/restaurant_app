@@ -61,7 +61,7 @@ var menuList = [
     description:
         'Di Sumatera Selatan terkenal makanan Pempek. Pempek terbuat dari ikan dan sagu. Penyajianya ditemani dengan kuah cokelat yang disebut cuko. Cuko terbuat dari air yang dididihkan, kemudian ditambah gula merah, udang rebi dan cabe rawit tumbuk, bawang putih, dan garam.',
     rating: '4.7',
-    imageAsset: 'images/sby-1.jpg',
+    imageAsset: 'images/pempek.jpg',
   ),
   ModelRestaurant(
     name: 'Soto Banjar',
