@@ -1,4 +1,6 @@
 import 'package:flutter/cupertino.dart';
+import 'package:restaurant_app/restaurant_detail.dart';
+
 
 class MainScreen extends StatelessWidget {
   @override
