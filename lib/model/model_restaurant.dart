@@ -53,7 +53,7 @@ var menuList = [
     description:
         'Sumatera Barat terkenal dengan makanan Padang yang berasal dari kota Padang. Makanan yang banyak rempahnya ini mempunyai rasa yang kuat. Rendang adalah salah satu masakan Padang yang menjadi favorit banyak orang Indonesiabahkan sampai luar negeri.',
     rating: '5.0',
-    imageAsset: 'images/megawati-1.jpg',
+    imageAsset: 'images/rendang.jpg',
   ),
   ModelRestaurant(
     name: 'Pempek',
