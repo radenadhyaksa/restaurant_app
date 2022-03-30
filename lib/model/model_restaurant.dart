@@ -29,7 +29,7 @@ var menuList = [
     description:
         'Nasi goreng adalah makanan nusantara sederhana yang super lezat. Selain bumbu rempah, nasi goreng biasanya ditambah beberapa bahan lain supaya lebih nikmat, seperti daging, sayuran, dan telur goreng. Bahan rahasia yang membuat nasi goreng makin nikmat adalah kecap manis yang membuat warna nasi seperti karamel. Nasi goreng juga disajikan bersama irisan tomat segar, selada, kerupuk, dan mentimun.',
     rating: '4.8',
-    imageAsset: 'images/soeharto-1.jpg',
+    imageAsset: 'images/nasi-goreng.jpg',
   ),
   ModelRestaurant(
     name: 'Nasi Gudeg',
