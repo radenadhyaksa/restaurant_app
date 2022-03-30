@@ -1,11 +1,11 @@
-class PresidenIndonesia {
+class ModelRestaurant {
   String name;
   String period1;
   String description;
   String years;
   String imageAsset;
 
-  PresidenIndonesia({
+  ModelRestaurant({
     required this.name,
     required this.period1,
     required this.description,
@@ -15,7 +15,7 @@ class PresidenIndonesia {
 }
 
 var presidenList = [
-  PresidenIndonesia(
+  ModelRestaurant(
     name: 'Soekarno',
     period1: 'Presiden ke-1',
     description:
@@ -23,7 +23,7 @@ var presidenList = [
     years: '1945 - 1967',
     imageAsset: 'images/soekarno1.jpg',
   ),
-  PresidenIndonesia(
+  ModelRestaurant(
     name: 'Soeharto',
     period1: 'Presiden ke-2',
     description:
@@ -31,7 +31,7 @@ var presidenList = [
     years: '1968 - 1998',
     imageAsset: 'images/soeharto-1.jpg',
   ),
-  PresidenIndonesia(
+  ModelRestaurant(
     name: 'B. J. Habibie ',
     period1: 'Presiden ke-3',
     description:
@@ -39,7 +39,7 @@ var presidenList = [
     years: '1998 - 1999',
     imageAsset: 'images/habibie-1.jpg',
   ),
-  PresidenIndonesia(
+  ModelRestaurant(
     name: 'Abdurahman Wahid',
     period1: 'Presiden ke-4',
     description:
@@ -47,7 +47,7 @@ var presidenList = [
     years: '1999 - 2001',
     imageAsset: 'images/gusdur-1.jpg',
   ),
-  PresidenIndonesia(
+  ModelRestaurant(
     name: 'Megawati Soekarnoputri',
     period1: 'Presiden ke-5',
     description:
@@ -55,7 +55,7 @@ var presidenList = [
     years: '2001 - 2004',
     imageAsset: 'images/megawati-1.jpg',
   ),
-  PresidenIndonesia(
+  ModelRestaurant(
     name: 'Susilo Bambang Yudhoyono',
     period1: 'Presiden ke-6',
     description:
@@ -63,7 +63,7 @@ var presidenList = [
     years: '2004 - 2014',
     imageAsset: 'images/sby-1.jpg',
   ),
-  PresidenIndonesia(
+  ModelRestaurant(
     name: 'Joko Widodo',
     period1: 'Presiden ke-7',
     description:
