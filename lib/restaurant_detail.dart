@@ -85,10 +85,6 @@ class DetailScreen extends StatelessWidget {
                     children: <Widget>[
                       // Icon(Icons.monetization_on),
                       SizedBox(height: 8.0),
-                      // Text(
-                      //   place.ticketPrice,
-                      //   style: informationTextStyle,
-                      // ),
                     ],
                   ),
                 ],
