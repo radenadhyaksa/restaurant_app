@@ -16,58 +16,58 @@ class ModelRestaurant {
 
 var menuList = [
   ModelRestaurant(
-    name: 'Soekarno',
-    period1: 'Presiden ke-1',
+    name: 'Nasi Uduk',
+    period1: 'Khas Jakarta',
     description:
-        'Dr. (H.C.) Ir. H. Soekarno1 (ER, EYD: Sukarno, nama lahir: Koesno Sosrodihardjo; 6 Juni 1901 – 21 Juni 1970)adalah Presiden pertama Republik Indonesia yang menjabat pada periode 1945–1967.',
-    years: '1945 - 1967',
+        'Nasi uduk merupakan hidangan gurih dari nasi kelapa khas dari Jakarta. Nasi uduk adalah olahan dari nasi kukus yang umumnya dicampur dengan rempah-rempah. Hidangan ini dibuat dari beras yang dicampur santan, cengkeh, kayu manis, dan serai. /n Sajian ini punya cita rasa yang memanjakan lidah dengan topping bawang goreng. Lauk pelengkapnya seperti tempe orek, telur, dan krecek.',
+    years: '4.5',
     imageAsset: 'images/soekarno1.jpg',
   ),
   ModelRestaurant(
-    name: 'Soeharto',
-    period1: 'Presiden ke-2',
+    name: 'Nasi Goreng',
+    period1: 'Makanan Nusantara',
     description:
-        'Jenderal Besar TNI (Purn.) H. M. Soeharto, (ER, EYD: Suharto; 8 Juni 1921 – 27 Januari 2008) adalah Presiden kedua Indonesia yang menjabat dari tahun 1967 sampai 1998, menggantikan Soekarno.',
-    years: '1968 - 1998',
+        'Nasi goreng adalah makanan nusantara sederhana yang super lezat. Selain bumbu rempah, nasi goreng biasanya ditambah beberapa bahan lain supaya lebih nikmat, seperti daging, sayuran, dan telur goreng. Bahan rahasia yang membuat nasi goreng makin nikmat adalah kecap manis yang membuat warna nasi seperti karamel. Nasi goreng juga disajikan bersama irisan tomat segar, selada, kerupuk, dan mentimun.',
+    years: '4.8',
     imageAsset: 'images/soeharto-1.jpg',
   ),
   ModelRestaurant(
-    name: 'B. J. Habibie ',
-    period1: 'Presiden ke-3',
+    name: 'Nasi Gudeg',
+    period1: 'khas Yogyakarta',
     description:
-        'Prof. Dr.ing. Ir. H. Bacharuddin Jusuf Habibie, FREng (25 Juni 1936 – 11 September 2019) adalah Presiden Republik Indonesia yang ketiga. Sebelumnya, B.J. Habibie menjabat sebagai Wakil Presiden Republik Indonesia ke-7, menggantikan Try Sutrisno.',
-    years: '1998 - 1999',
+        'Gudeg merupakan makanan tradisional Jogja dan Jawa Tengah. Gudeg dibuat dari nangka mentah yang direbus selama berjam-jam dengan campuran santan, bumbu rempah, dan gula aren. Gudeg biasa disajikan bersama telur, ayam, dan nasi putih. Gudeg memiliki cita rasa sedikit manis dan pekat.',
+    years: '4.7',
     imageAsset: 'images/habibie-1.jpg',
   ),
   ModelRestaurant(
-    name: 'Abdurahman Wahid',
-    period1: 'Presiden ke-4',
+    name: 'Gado-gado',
+    period1: 'khas Jakarta',
     description:
-        'Dr. (H.C.). K.H. Abdurrahman Wahid (lahir dengan nama Abdurrahman ad-Dakhil; 7 September 1940 – 30 Desember 2009), atau yang akrab disapa Gus Dur, adalah tokoh Muslim Indonesia dan pemimpin politik yang menjadi Presiden Indonesia yang keempat dari tahun 1999 hingga 2001.',
-    years: '1999 - 2001',
+        'Gado-gado adalah makanan khas Jakarta berisi sayur-sayuran yang direbus, irisan telur dan tahu, serta ditaburi bawang goreng dan kerupuk. Sayur-sayuran ditambahkan dengan bumbu kacang atau saus dari kacang tanah yang telah dihaluskan yang kemudian diaduk merata.',
+    years: '4.4',
     imageAsset: 'images/gusdur-1.jpg',
   ),
   ModelRestaurant(
-    name: 'Megawati Soekarnoputri',
-    period1: 'Presiden ke-5',
+    name: 'Rendang',
+    period1: 'khas Sumatera Barat',
     description:
-        'Prof. Dr. (H.C.) Hj. Diah Permata Megawati Setiawati Soekarnoputri (lahir 23 Januari 1947) adalah Presiden Indonesia yang kelima yang menjabat sejak 23 Juli 2001 sampai 20 Oktober 2004. Ia merupakan presiden wanita Indonesia pertama dan putri dari presiden Indonesia pertama, Soekarno.',
-    years: '2001 - 2004',
+        'Sumatera Barat terkenal dengan makanan Padang yang berasal dari kota Padang. Makanan yang banyak rempahnya ini mempunyai rasa yang kuat. Rendang adalah salah satu masakan Padang yang menjadi favorit banyak orang Indonesiabahkan sampai luar negeri.',
+    years: '5.0',
     imageAsset: 'images/megawati-1.jpg',
   ),
   ModelRestaurant(
-    name: 'Susilo Bambang Yudhoyono',
-    period1: 'Presiden ke-6',
+    name: 'Pempek',
+    period1: 'Khas Palembang',
     description:
-        'Jenderal TNI (HOR) (Purn.) Prof. Dr. Dr. (HC). H. Susilo Bambang Yudhoyono, M.A. (lahir 9 September 1949) adalah Presiden Indonesia keenam yang menjabat sejak 20 Oktober 2004 hingga 20 Oktober 2014. Ia adalah Presiden pertama di Indonesia yang dipilih melalui jalur pemilihan umum.',
-    years: '2004 - 2014',
+        'Di Sumatera Selatan terkenal makanan Pempek. Pempek terbuat dari ikan dan sagu. Penyajianya ditemani dengan kuah cokelat yang disebut cuko. Cuko terbuat dari air yang dididihkan, kemudian ditambah gula merah, udang rebi dan cabe rawit tumbuk, bawang putih, dan garam.',
+    years: '4.7',
     imageAsset: 'images/sby-1.jpg',
   ),
   ModelRestaurant(
-    name: 'Joko Widodo',
-    period1: 'Presiden ke-7',
+    name: 'Soto Banjar',
+    period1: 'khas suku Banjar',
     description:
-        'Ir. H. Joko Widodo. lahir 21 Juni 1961, atau yang lebih akrab disapa Jokowi, adalah Presiden Indonesia yang mulai menjabat sejak 20 Oktober 2014. Terpilih dalam Pemilu Presiden 2014, Jokowi menjadi Presiden Indonesia pertama sepanjang sejarah yang bukan berasal dari latar belakang elite politik atau militer Indonesia.',
+        'Soto Banjar adalah sosto khas suku Banjar, Kalimantan Selatan dengan bahan utama ayam dan beraroma harum rempah-rempah seperti kayu manis, biji pala, dan cengkeh. Soto berisi daging ayam yang sudah disuwir-suwir dengan tambahan perkedel atau kentang rebus, rebusan telur, dan ketupat.',
     years: '2014 - saat ini',
     imageAsset: 'images/jokowi-1.jpg',
   ),
