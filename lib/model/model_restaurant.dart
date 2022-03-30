@@ -45,7 +45,7 @@ var menuList = [
     description:
         'Gado-gado adalah makanan khas Jakarta berisi sayur-sayuran yang direbus, irisan telur dan tahu, serta ditaburi bawang goreng dan kerupuk. Sayur-sayuran ditambahkan dengan bumbu kacang atau saus dari kacang tanah yang telah dihaluskan yang kemudian diaduk merata.',
     rating: '4.4',
-    imageAsset: 'images/gusdur-1.jpg',
+    imageAsset: 'images/gado-gadoo.jpg',
   ),
   ModelRestaurant(
     name: 'Rendang',
