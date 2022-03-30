@@ -21,7 +21,7 @@ var menuList = [
     description:
         'Nasi uduk merupakan hidangan gurih dari nasi kelapa khas dari Jakarta. Nasi uduk adalah olahan dari nasi kukus yang umumnya dicampur dengan rempah-rempah. Hidangan ini dibuat dari beras yang dicampur santan, cengkeh, kayu manis, dan serai. /n Sajian ini punya cita rasa yang memanjakan lidah dengan topping bawang goreng. Lauk pelengkapnya seperti tempe orek, telur, dan krecek.',
     rating: '4.5',
-    imageAsset: 'images/soekarno1.jpg',
+    imageAsset: 'images/nasi-uduk.jpg',
   ),
   ModelRestaurant(
     name: 'Nasi Goreng',
