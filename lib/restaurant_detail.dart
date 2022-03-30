@@ -66,7 +66,7 @@ class DetailScreen extends StatelessWidget {
                       Icon(Icons.calendar_today),
                       SizedBox(height: 8.0),
                       Text(
-                        place.period1,
+                        place.khas,
                         style: informationTextStyle,
                       ),
                     ],
