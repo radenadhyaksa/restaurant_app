@@ -59,7 +59,7 @@ class RestaurantScreen extends StatelessWidget {
                           SizedBox(
                             height: 10,
                           ),
-                          Text(place.period1),
+                          Text(place.khas),
                         ],
                       ),
                     ),
