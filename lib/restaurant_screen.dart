@@ -26,7 +26,6 @@ class RestaurantScreen extends StatelessWidget {
             icon: Icon(Icons.shopping_cart_outlined),
           ),
         ],
-        // onTap: (index) => setState(() => currentIndex = index),
       ),
 
       body: ListView.builder(
@@ -70,7 +69,7 @@ class RestaurantScreen extends StatelessWidget {
             ),
           );
         },
-        itemCount: presidenList.length,
+        itemCount: menuList.length,
       ),
     );
   }

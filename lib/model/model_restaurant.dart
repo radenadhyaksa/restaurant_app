@@ -14,7 +14,7 @@ class ModelRestaurant {
   });
 }
 
-var presidenList = [
+var menuList = [
   ModelRestaurant(
     name: 'Soekarno',
     period1: 'Presiden ke-1',
