@@ -10,7 +10,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Presiden Indonesia',
       theme: ThemeData(),
-      home: RestuarantScreen(),
+      home: RestaurantScreen(),
     );
   }
 }
