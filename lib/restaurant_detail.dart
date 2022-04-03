@@ -80,16 +80,7 @@ class DetailScreen extends StatelessWidget {
                       ),
                     ],
                   ),
-                  // Column(
-                  //   children: <Widget>[
-                  //     Icon(Icons.price_change_outlined),
-                  //     SizedBox(height: 8.0),
-                  //      Text(
-                  //       place.price,
-                  //       style: informationTextStyle,
-                  //     ),
-                  //   ],
-                  // ),
+                  
                 ],
               ),
             ),
@@ -135,18 +126,7 @@ class DetailScreen extends StatelessWidget {
               ),
             ),
 
-            //  Container(
-            //   height: 150,
-            //   child: ListView(
-            //     scrollDirection: Axis.horizontal,
-            // children: place.menus.map((url) {
-            //   return Padding(
-            //     padding: const EdgeInsets.all(4.0),
-               
-            //   );
-            // }).toList(),
-            //   ),
-            // ),
+           
 
 
           ],
