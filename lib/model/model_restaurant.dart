@@ -160,4 +160,25 @@ var menuList = [
       'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUz_zanYTFNAijFYxTlZkLByjE6QbZbcGCCA&usqp=CAU',
     ],
   ),
+  ModelRestaurant(
+    name: 'Drinky Squash',
+    city: 'Surabaya',
+    description:
+        'Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc',
+    rating: '3.9',
+    imageAsset: 'images/07.jpg',
+    menus: [
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlwQzYvv8C612Pq7VaDBB66G0ow6zocJF0Og&usqp=CAU',
+      'https://www.everydayhealthyrecipes.com/wp-content/uploads/2020/06/Polish-Kohlrabi-Soup-3-e1596618571942.jpg',
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRs-o5eyWMIFmjct39EsFgy9kYWILt3zQyIug&usqp=CAU',
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQWojZoPYYMY5et40KRXwr6LjRhAgmcdi8yw&usqp=CAU',
+      'https://obs.line-scdn.net/0h9HZ0CKIGZmdnSXHO5gUZMF8fahZUL3xuRXsoCEtOOFEYZSM0CSg1BENNbEtCfiIwR3ooUhFBMF9JfXVhWg/w644',
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgdeiFWeapsARVff0iHBT9qdqO7xAa70UsaA&usqp=CAU',
+      //minuman
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpoLmoEfKiTjT7uDsLNgTSSPrqxQsIIG2fxA&usqp=CAU',
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBijAXEOvl4fChonW2VOWBor_7KlbeMMLtoA&usqp=CAU',
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiqIogtciLg6xiQIxkWv78BUzJb2IMiURMnw&usqp=CAU',
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUz_zanYTFNAijFYxTlZkLByjE6QbZbcGCCA&usqp=CAU',
+    ],
+  ),
 ];
