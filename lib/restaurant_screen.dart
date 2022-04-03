@@ -10,23 +10,6 @@ class RestaurantScreen extends StatelessWidget {
       appBar: AppBar(
         title: Text('Restaurant App'),
       ),
-
-      // //navigation bar
-      // // body: _pages[currentIndex],
-      // bottomNavigationBar: BottomNavigationBar(
-      //   // currentIndex: currentIndex,
-      //   items: const [
-      //     BottomNavigationBarItem(
-      //       label: 'Menu',
-      //       icon: Icon(Icons.local_restaurant),
-      //     ),
-      //     BottomNavigationBarItem(
-      //       label: 'Pesanan',
-      //       icon: Icon(Icons.shopping_cart_outlined),
-      //     ),
-      //   ],
-      // ),
-
       body: ListView.builder(
         itemBuilder: (context, index) {
           final ModelRestaurant place = menuList[index];
