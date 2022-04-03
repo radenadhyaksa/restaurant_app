@@ -80,16 +80,16 @@ class DetailScreen extends StatelessWidget {
                       ),
                     ],
                   ),
-                  Column(
-                    children: <Widget>[
-                      Icon(Icons.price_change_outlined),
-                      SizedBox(height: 8.0),
-                       Text(
-                        place.price,
-                        style: informationTextStyle,
-                      ),
-                    ],
-                  ),
+                  // Column(
+                  //   children: <Widget>[
+                  //     Icon(Icons.price_change_outlined),
+                  //     SizedBox(height: 8.0),
+                  //      Text(
+                  //       place.price,
+                  //       style: informationTextStyle,
+                  //     ),
+                  //   ],
+                  // ),
                 ],
               ),
             ),
