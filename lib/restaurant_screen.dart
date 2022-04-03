@@ -11,21 +11,21 @@ class RestaurantScreen extends StatelessWidget {
         title: Text('Restaurant App'),
       ),
 
-      //navigation bar
-      // body: _pages[currentIndex],
-      bottomNavigationBar: BottomNavigationBar(
-        // currentIndex: currentIndex,
-        items: const [
-          BottomNavigationBarItem(
-            label: 'Menu',
-            icon: Icon(Icons.local_restaurant),
-          ),
-          BottomNavigationBarItem(
-            label: 'Pesanan',
-            icon: Icon(Icons.shopping_cart_outlined),
-          ),
-        ],
-      ),
+      // //navigation bar
+      // // body: _pages[currentIndex],
+      // bottomNavigationBar: BottomNavigationBar(
+      //   // currentIndex: currentIndex,
+      //   items: const [
+      //     BottomNavigationBarItem(
+      //       label: 'Menu',
+      //       icon: Icon(Icons.local_restaurant),
+      //     ),
+      //     BottomNavigationBarItem(
+      //       label: 'Pesanan',
+      //       icon: Icon(Icons.shopping_cart_outlined),
+      //     ),
+      //   ],
+      // ),
 
       body: ListView.builder(
         itemBuilder: (context, index) {
