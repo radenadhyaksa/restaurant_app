@@ -168,7 +168,6 @@ var menuList = [
     rating: '4.1',
     imageAsset: 'images/08.jpg',
     menus: [
-      
       'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQWojZoPYYMY5et40KRXwr6LjRhAgmcdi8yw&usqp=CAU',
       'https://obs.line-scdn.net/0h9HZ0CKIGZmdnSXHO5gUZMF8fahZUL3xuRXsoCEtOOFEYZSM0CSg1BENNbEtCfiIwR3ooUhFBMF9JfXVhWg/w644',
       'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgdeiFWeapsARVff0iHBT9qdqO7xAa70UsaA&usqp=CAU',
