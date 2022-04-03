@@ -42,6 +42,7 @@ class RestaurantScreen extends StatelessWidget {
                             height: 10,
                           ),
                           Text(place.city),
+                          Text(place.rating),
                         ],
                       ),
                     ),
