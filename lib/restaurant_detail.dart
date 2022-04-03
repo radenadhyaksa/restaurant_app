@@ -104,21 +104,51 @@ class DetailScreen extends StatelessWidget {
                 ),
               ),
             ),
+        
+          // Container(
+          //     padding: EdgeInsets.all(16.0),
+          //     child: Text(
+          //       place.menus,
+          //       textAlign: TextAlign.center,
+          //       style: TextStyle(
+          //         fontSize: 16.0,
+          //         fontFamily: 'Oxygen',
+          //       ),
+          //     ),
+          //   ),
+
+           
+
             Container(
               height: 150,
               child: ListView(
                 scrollDirection: Axis.horizontal,
-                // children: place.imageUrls.map((url) {
-                //   return Padding(
-                //     padding: const EdgeInsets.all(4.0),
-                //     child: ClipRRect(
-                //       borderRadius: BorderRadius.circular(10),
-                //       child: Image.network(url),
-                //     ),
-                //   );
-                // }).toList(),
+            children: place.menus.map((url) {
+              return Padding(
+                padding: const EdgeInsets.all(4.0),
+                child: ClipRRect(
+                  borderRadius: BorderRadius.circular(10),
+                  child: Image.network(url),
+                ),
+              );
+            }).toList(),
               ),
             ),
+
+            //  Container(
+            //   height: 150,
+            //   child: ListView(
+            //     scrollDirection: Axis.horizontal,
+            // children: place.menus.map((url) {
+            //   return Padding(
+            //     padding: const EdgeInsets.all(4.0),
+               
+            //   );
+            // }).toList(),
+            //   ),
+            // ),
+
+
           ],
         ),
       ),

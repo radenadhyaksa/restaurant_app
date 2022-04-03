@@ -8,7 +8,7 @@ class RestaurantScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Menu Restaurant-LokalPunya'),
+        title: Text('Restaurant App'),
       ),
 
       //navigation bar
