@@ -65,7 +65,7 @@ class DetailScreen extends StatelessWidget {
                       Icon(Icons.pin_drop),
                       SizedBox(height: 8.0),
                       Text(
-                        place.khas,
+                        place.city,
                         style: informationTextStyle,
                       ),
                     ],
