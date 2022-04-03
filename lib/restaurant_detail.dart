@@ -96,19 +96,7 @@ class DetailScreen extends StatelessWidget {
               ),
             ),
         
-          // Container(
-          //     padding: EdgeInsets.all(16.0),
-          //     child: Text(
-          //       place.menus,
-          //       textAlign: TextAlign.center,
-          //       style: TextStyle(
-          //         fontSize: 16.0,
-          //         fontFamily: 'Oxygen',
-          //       ),
-          //     ),
-          //   ),
-
-           
+        
 
             Container(
               height: 150,
