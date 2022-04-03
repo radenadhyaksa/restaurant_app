@@ -80,7 +80,6 @@ class DetailScreen extends StatelessWidget {
                       ),
                     ],
                   ),
-                  
                 ],
               ),
             ),
@@ -95,28 +94,21 @@ class DetailScreen extends StatelessWidget {
                 ),
               ),
             ),
-        
-        
-
             Container(
               height: 150,
               child: ListView(
                 scrollDirection: Axis.horizontal,
-            children: place.menus.map((url) {
-              return Padding(
-                padding: const EdgeInsets.all(4.0),
-                child: ClipRRect(
-                  borderRadius: BorderRadius.circular(10),
-                  child: Image.network(url),
-                ),
-              );
-            }).toList(),
+                children: place.menus.map((url) {
+                  return Padding(
+                    padding: const EdgeInsets.all(4.0),
+                    child: ClipRRect(
+                      borderRadius: BorderRadius.circular(10),
+                      child: Image.network(url),
+                    ),
+                  );
+                }).toList(),
               ),
             ),
-
-           
-
-
           ],
         ),
       ),
