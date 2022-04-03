@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 import 'package:restaurant_app/restaurant_detail.dart';
 import 'package:restaurant_app/model/model_restaurant.dart';
 
-
 class RestaurantScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
